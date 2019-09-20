@@ -1,0 +1,78 @@
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+
+  #img1 {
+    visibility: visible;
+  }
+
+  #vid1 {
+    visibility: hidden;
+    display: none;
+  }
+
+  #big {
+    display: none;
+    visibility: hidden;
+  }
+
+  #rytlarge {
+    display: none;
+    visibility: hidden;
+  }
+
+}
+
+@media only screen and (min-width: 993px) {
+  #vid1 {
+    visibility: hidden;
+  }
+
+  #img1 {
+    visibility: visible;
+    /* display: none; */
+  }
+
+  #rytsmall {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.w3-content {
+  padding: 15px;
+}
+
+.far {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/* Add a hover effect if you want */
+.far:hover {
+  opacity: 0.7;
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
+#photocredit {
+  font-size: 80%;
+}
