@@ -20,9 +20,15 @@ h1, h2, h3, h4, h5, h6 {
     visibility: hidden;
   }
 
-  #rytlarge {
+  #ryt200large {
     display: none;
     visibility: hidden;
+  }
+
+  #ryt500large {
+    display: none;
+    visibility: hidden;
+    padding: 0px;
   }
 
 }
@@ -37,7 +43,12 @@ h1, h2, h3, h4, h5, h6 {
     /* display: none; */
   }
 
-  #rytsmall {
+  #ryt200small {
+    display: none;
+    visibility: hidden;
+  }
+
+  #ryt500small {
     display: none;
     visibility: hidden;
   }
